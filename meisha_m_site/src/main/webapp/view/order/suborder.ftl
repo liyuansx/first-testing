@@ -233,7 +233,6 @@
 				<div class="btn_login" >提交订单</div>
 				</a>
 		</div>
-		
 		<!--底层-->
 		<div class="bottom_padding"></div>
 		<!--弹框-->
@@ -467,17 +466,13 @@
 			        <button class="mui-btn mui-btn-danger" type="button" onclick="checkForm()">提交订单</button>
 			    </div>
 		</form>-->
-		
+		<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
 		<script src="${basePath}/js/mui.min.js"></script>
 		<script src="${basePath}/js/app.js"></script>
-		
-		<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
-		
 		<script src="${basePath}/js/jquery.magnific-popup.min.js"></script>
 		<script src="${basePath}/js/qr_order/main.js"></script> 
 	<script>
 		function checkRealname(){
-		
 		var realName=$("#realName").val();
 		var certNo=$("#certNo").val();
 		var flag=validIdnum(certNo);
@@ -508,16 +503,16 @@
 	
 	
 	$(document).ready(function(){
-	$(".submit_btn").click(function(){
-//		$(".qa_dialog_name_note").show();
-//		$(".qa_dialog_num_note").show();
+		$(".submit_btn").click(function(){
+	//		$(".qa_dialog_name_note").show();
+	//		$(".qa_dialog_num_note").show();
+		});
+		$(".cancel_btn").click(function(){
+			$(".qa_bg").hide();
+			$(".qa_dialog").hide();
+		});
+		
 	});
-	$(".cancel_btn").click(function(){
-		$(".qa_bg").hide();
-		$(".qa_dialog").hide();
-	});
-	
-});
 	
 	    var isflag=true;
 	    var subNum=0;
@@ -540,7 +535,6 @@
      		  	 $(".qa_dialog").show();
      		  	 $(".qa_bg").show();
      		    }
-     		    else
            });
         }
 	    //使用积分兑换    
@@ -692,7 +686,8 @@ function validIdnum(idnum) {
 	flagId = true;
 	return true;
 }
+
+
 	</script>
 	</body>
 </html>
-
