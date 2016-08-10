@@ -1,0 +1,206 @@
+html {
+	font-size: 75px;
+}
+
+.m_head {
+	position: relative;
+	width: 750px;
+	height: 88px;
+}
+
+.iconfont_back {
+	width: 88px;
+	height: 88px;
+}
+
+.login {
+	position: absolute;
+	top: 0;
+	left: 88px;
+	width: 570px;
+	text-align: center;
+	height: 88px;
+	line-height: 88px;
+	font-size: 32px;
+	color: #373737;
+}
+
+.register {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 88px;
+	height: 88px;
+	line-height: 88px;
+	font-size: 32px;
+	color: #373737;
+	text-align: center;
+}
+
+.m_head hr {
+	position: absolute;
+	top: 88px;
+	left: 20px;
+	width: 710px;
+	border: none;
+	border-top: 1px #464646 solid;
+}
+
+.m_login {
+	position: relative;
+	width: 750px;
+	/*height: 265px;*/
+}
+
+.iconfont_renwu {
+	position: absolute;
+	top: 57px;
+	left: 42px;
+	width: 74px;
+	height: 74px;
+}
+
+.username {
+	border: none;
+	position: absolute;
+	top: 57px;
+	left: 115px;
+	width: 560px;
+	height: 74px;
+	line-height: 74px;
+	color: #464646;
+	font-size: 24px;
+}
+
+.line1 {
+	position: absolute;
+	top: 136px;
+	left: 42px;
+	width: 627px;
+	border-top: 1px solid #999;
+}
+
+.mima {
+	position: absolute;
+	top: 147px;
+	left: 42px;
+	width: 74px;
+	height: 74px;
+}
+
+.password {
+	border: none;
+	position: absolute;
+	top: 147px;
+	left: 115px;
+	width: 560px;
+	height: 74px;
+	line-height: 74px;
+	color: #464646;
+	font-size: 24px;
+}
+
+.line2 {
+	position: absolute;
+	top: 222px;
+	left: 42px;
+	width: 627px;
+	border-top: 1px solid #999;
+}
+
+.findpassword {
+	position: absolute;
+	top: 270px;
+	left: 56px;
+	font-size: 26px;
+	color: #666666;
+}
+
+.btn_login {
+	position: absolute;
+	top: 380px;
+	left: 140px;
+	width: 409px;
+	height: 74px;
+	line-height: 74px;
+	text-align: center;
+	border: 1px solid #999;
+	border-radius: 10px;
+	font-size: 26px;
+	color: #fb9c77;
+	cursor: pointer;
+}
+
+.line3 {
+	position: absolute;
+	top: 673px;
+	left: 42px;
+	width: 627px;
+	border-top: 1px solid #999;
+}
+
+.hezuo {
+	position: absolute;
+	left: 235px;
+	top: 660px;
+	width: 285px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 24px;
+	color: #999;
+	text-align: center;
+	background: #fff;
+}
+
+.iconfont_qq {
+	position: absolute;
+	top: 732px;
+	left: 89px;
+	width: 74px;
+}
+.qq_login{
+	position: absolute;
+	top: 810px;
+	left: 89px;
+	width: 74px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 24px;
+	color: #999;
+}
+.iconfont_wx {
+	position: absolute;
+	top: 732px;
+	left: 327px;
+	width: 74px;
+}
+.wx_login{
+	position: absolute;
+	top: 810px;
+	left: 327px;
+	width: 74px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 24px;
+	color: #999;
+}
+.iconfont_wb {
+	position: absolute;
+	top: 732px;
+	left: 580px;
+	width: 74px;
+}
+.wb_login{
+	position: absolute;
+	top: 810px;
+	left: 580px;
+	width: 74px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 24px;
+	color: #999;
+}
+

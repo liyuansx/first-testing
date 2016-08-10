@@ -1,0 +1,137 @@
+.fenlei {
+	margin-top: 60px;
+	/*margin-bottom: 60px;*/
+}
+
+.mianmo {
+	float: left;
+	margin-left: 70px;
+	width: 100px;
+	height: 121px;
+	position: relative;
+}
+
+.fangshai {
+	width: 100px;
+	height: 80px;
+}
+
+.mianmo_text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	color: #777777;
+	font-size: 22px;
+	text-align: center;
+}
+
+.hot_sale_pinpai {
+	width: 260px;
+	height: 130px;
+	margin-left: 225px;
+	margin-top: 0px;
+	margin-bottom: 61px;
+}
+
+.rexiaopinpai {
+	position: relative;
+	width: 750px;
+	height: 364px;
+}
+
+.xiangnaier {
+	width: 520px;
+	height: 337px;
+	margin-left: 20px;
+}
+
+.pinpaikuan {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 168px;
+	height: 364px;
+}
+
+.dior {
+	width: 130px;
+	height: 74px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+
+.more {
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+	width: 96px;
+	height: 18px;
+}
+
+.rexiaodanpin {
+	width: 300px;
+	height: 130px;
+	margin-left: 236px;
+	margin-top: 60px;
+	margin-bottom: 61px;
+}
+
+.hot_danpin {
+	position: relative;
+	margin-left: 20px;
+	width: 710px;
+	height: 295px;
+	border: 2px solid #999;
+	margin-bottom: 10px;
+}
+
+.hushoushuang {
+	position: absolute;
+	left: 0;
+	top: 31px;
+	width: 234px;
+	height: 234px;
+}
+
+.hot_danpan_text {
+	position: absolute;
+	left: 247px;
+	top: 43px;
+	width: 310px;
+	height: 144px;
+	font-size: 28px;
+	color: #464646;
+}
+
+.hot_danpan_text_146 {
+	position: absolute;
+	left: 247px;
+	top: 213px;
+	width: 310px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	text-decoration: line-through;
+	color: #999;
+}
+
+.hot_danpan_text_79 {
+	position: absolute;
+	left: 247px;
+	top: 237px;
+	width: 310px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 32px;
+	color: #464646;
+}
+.qugoumai{
+	position: absolute;
+	right: 42px;
+	bottom: 36px;
+	width: 115px;
+	height: 67px;
+}

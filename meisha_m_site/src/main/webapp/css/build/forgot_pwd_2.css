@@ -1,0 +1,237 @@
+html {
+  font-size: 1rem;
+}
+*::-webkit-input-placeholder { 
+color: #CFCFCF; 
+} 
+*:-moz-placeholder { 
+color: #CFCFCF; 
+} 
+*:-ms-input-placeholder { 
+/* IE10+ */ 
+color: #CFCFCF; 
+} 
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 1.173333rem;
+}
+
+.back {
+  position: absolute;
+  width: 1.173333rem;
+}
+
+.shouye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.173333rem;
+}
+
+.forget_text {
+  position: absolute;
+  left: 2.666667rem;
+  right: 2.666667rem;
+  top: 0;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+  text-align: center;
+}
+
+.line1 {
+  position: absolute;
+  top: 1.173333rem;
+  left: 0;
+  width: 10rem;
+  border-top: 1px solid #999;
+  z-index: 100;
+}
+.accounts{
+	height: 0.866667rem;
+	margin-top: 0.8rem;
+	margin-right: 0.66667rem;
+	margin-left: 0.746667rem;
+	border-bottom: 1px solid #DEDEDE;
+}
+.accounts_icon{
+	float: left;
+	width: 0.533333rem;
+	height: 0.6rem;
+}
+#accounts_num{
+	float: left;
+	width: 4.08rem;
+	font-size: 0.32rem;
+	color: #000000;
+	line-height: 0.6rem;
+	vertical-align: middle;
+	margin-left: 0.266667rem;
+	border:none;
+  outline:medium;
+}
+.accounts_clear{
+	cursor: pointer;
+	float: right;
+	width: 0.266667rem;
+	height: 0.266667rem;
+	margin-top: 0.18667rem;
+}
+.code{
+	height: 0.93333rem;
+	margin-top: 0.26667rem;
+	margin-right: 0.66667rem;
+	margin-left: 0.746667rem;
+	border-bottom: 1px solid #DEDEDE;
+}
+.code_icon{
+	float: left;
+	width: 0.533333rem;
+	height: 0.6rem;
+	margin-top: 0.06667rem;
+}
+.code_get{
+	cursor: pointer;
+	float: right;
+	width: 3.01333rem;
+	height: 0.73333rem;
+	line-height: 0.73333rem;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 0.32rem;
+	background-color: #E31436;
+}
+.code_num{
+	float: left;
+	width: 4.08rem;
+	font-size: 0.32rem;
+	color: #000000;
+	line-height: 0.6rem;
+	vertical-align: middle;
+	margin-left: 0.266667rem;
+	border:none;
+  outline:medium;
+}
+.pwd{
+	height: 0.93333rem;
+	margin-top: 0.26667rem;
+	margin-right: 0.66667rem;
+	margin-left: 0.746667rem;
+	border-bottom: 1px solid #DEDEDE;
+}
+.pwd_icon{
+	float: left;
+	width: 0.533333rem;
+	height: 0.6rem;
+	margin-top: 0.06667rem;
+}
+.new-pwd{
+	float: left;
+	width: 4.08rem;
+	font-size: 0.32rem;
+	color: #000000;
+	line-height: 0.6rem;
+	margin-left: 0.266667rem;
+	margin-top: 0.09667rem;
+	border:none;
+  outline:medium;
+}
+.pwd_clear{
+	cursor: pointer;
+	float: right;
+	width: 0.266667rem;
+	height: 0.266667rem;
+	margin-top: 0.18667rem;
+}
+.btn_submit{
+	cursor: pointer;
+	width:5.46667rem ;
+	height: 0.98667rem;
+	line-height: 0.98667rem;
+	border-radius: 0.12667rem;
+	margin-top: 1.72rem;
+	margin-left: 2.13333rem;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #464646;
+	font-size: 0.4rem;
+	color: #E31436;
+}
+.non_exist{
+	float: left;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	font-size: 0.24rem;
+	color: #999999;
+	margin-top: 0.32rem;
+	margin-left: 0.746667rem;
+}
+.alph_bg{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	background-color: #000000;
+}
+.success_dialog{
+	position: absolute;
+	width: 4.96rem;
+	height: 1.78667rem;
+	z-index: 6;
+	line-height: 100%;
+	vertical-align: middle;
+	margin-left: 2.52rem;
+	background-color: #FFFFFF;
+	border-radius: 0.26667rem;
+}
+.success_dialog .msg{
+	font-size: 0.34667rem;
+	font-weight: bold;
+	color: #464646;
+	width: 4.96rem;
+	height: 0.89333rem;
+	line-height: 0.89333rem;
+	text-align: center;
+	border-bottom:1px solid #999999;
+}
+.success_dialog .btn_confirm{
+	float: right;
+	margin-right: 0.89333rem;
+	font-size: 0.34667rem;
+	font-weight: bold;
+	color: #89BCF5;
+	height: 0.89333rem;
+	line-height: 0.89333rem;
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+}
+
+
+
+.error_logo{
+	width: 0.4066rem;
+	height: 0.4066rem;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+
+.error-info{
+	font-size: 0.3266rem;
+	position: absolute;
+	top: 3.8rem;
+	left: 0.5466rem;
+}
+.error-tip{
+	line-height: 0.4066rem;
+	vertical-align: bottom;
+}

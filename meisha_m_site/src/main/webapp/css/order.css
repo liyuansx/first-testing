@@ -1,0 +1,217 @@
+html {
+	font-size: 75px;
+}
+
+.m_head {
+	position: relative;
+	width: 750px;
+	height: 88px;
+}
+
+.back {
+	position: absolute;
+	width: 88px;
+}
+
+.shouye {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 88px;
+}
+
+.search_text {
+	position: absolute;
+	left: 200px;
+	right: 200px;
+	top: 0;
+	height: 88px;
+	line-height: 88px;
+	font-size: 32px;
+	color: #373737;
+	text-align: center;
+}
+
+.line1 {
+	position: absolute;
+	top: 88px;
+	left: 0px;
+	width: 750px;
+	border-top: 1px solid #999;
+	/*no*/
+	z-index: 100;
+}
+
+.m_nav {
+	position: relative;
+	width: 750px;
+	height: 80px;
+}
+
+.or_all {
+	width: 150px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 28px;
+	color: #464646;
+	text-align: center;
+	float: left;
+}
+
+.or_banner {
+	width: 750px;
+	height: 20px;
+	background: #eee;
+}
+
+.or_title {
+	position: relative;
+	width: 750px;
+	height: 50px;
+	border-bottom: 1px solid #999;
+}
+
+.or_selected{
+	color: #E31436;
+}
+.or_state {
+	float: left;
+	margin-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	color: #E31436;
+	margin-right: 20px;
+}
+
+.or_num {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	color: #464646;
+	margin-right: 50px;
+}
+
+.or_time {
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #999;
+	margin-right: 50px;
+}
+
+.jiantou {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	width: 20px;
+	height: 20px;
+}
+
+.or_content {
+	position: relative;
+	width: 750px;
+	height: 180px;
+	border-bottom: 1px solid #999;
+}
+
+.chanpin {
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	width: 150px;
+	height: 150px;
+}
+
+.Opium {
+	position: absolute;
+	left: 170px;
+	top: 30px;
+	width: 570px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 26px;
+	color: #373737;
+	text-align: left;
+}
+
+.price {
+	position: absolute;
+	left: 170px;
+	bottom: 40px;
+	width: 570px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 26px;
+	color: #373737;
+	text-align: left;
+}
+
+.number {
+	position: absolute;
+	left: 290px;
+	bottom: 40px;
+	width: 570px;
+	height: 26px;
+	line-height: 24px;
+	font-size: 26px;
+	color: #999;
+	text-align: left;
+	font-family: arial;
+}
+
+.heji {
+	position: relative;
+	width: 750px;
+	height: 80px;
+	/**border-bottom: 1px solid #999;**/
+}
+
+.hj_heji {
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	font-size: 28px;
+	color: #464646;
+	margin-left: 20px;
+}
+
+.hj_price {
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	font-size: 28px;
+	color: #E31436;
+	margin-left: 20px;
+	margin-right: 50px;
+	font-family: arial;
+}
+
+.btn_checkorder {
+	float: right;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	background: #E31436;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.btn_pingjia{
+	float: right;
+		width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	background: #E31436;
+	margin-top: 20px;
+	margin-right: 20px;
+}

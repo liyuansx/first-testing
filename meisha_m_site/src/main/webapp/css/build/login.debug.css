@@ -1,0 +1,253 @@
+html {
+  font-size: 1rem;
+}
+
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 1.173333rem;
+}
+
+.iconfont_back {
+  width: 1.173333rem;
+  height: 1.173333rem;
+}
+
+.login {
+  position: absolute;
+  top: 0;
+  left: 1.173333rem;
+  width: 7.6rem;
+  text-align: center;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+}
+
+.register {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.173333rem;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+  text-align: center;
+}
+
+.m_head hr {
+  position: absolute;
+  top: 1.173333rem;
+  left: 0.266667rem;
+  width: 9.466667rem;
+  border: none;
+  border-top: 0.013333rem #464646 solid;
+}
+
+.m_login {
+  position: relative;
+  width: 10rem;
+  /*height: 265px;*/
+}
+
+.iconfont_renwu {
+  position: absolute;
+  top: 0.76rem;
+  left: 0.56rem;
+  width: 0.986667rem;
+  height: 0.986667rem;
+}
+
+.username {
+  border: none;
+  position: absolute;
+  top: 0.76rem;
+  left: 1.533333rem;
+  width: 7.466667rem;
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  color: #464646;
+  font-size: 0.32rem;
+}
+
+.line1 {
+  position: absolute;
+  top: 1.813333rem;
+  left: 0.56rem;
+  width: 8.36rem;
+  border-top: 1px solid #999;
+}
+
+.mima {
+  position: absolute;
+  top: 1.96rem;
+  left: 0.56rem;
+  width: 0.986667rem;
+  height: 0.986667rem;
+}
+
+.password {
+  border: none;
+  position: absolute;
+  top: 1.96rem;
+  left: 1.533333rem;
+  width: 7.466667rem;
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  color: #464646;
+  font-size: 0.32rem;
+}
+
+.line2 {
+  position: absolute;
+  top: 2.96rem;
+  left: 0.56rem;
+  width: 8.36rem;
+  border-top: 1px solid #999;
+}
+
+.findpassword {
+  position: absolute;
+  top: 3.6rem;
+  left: 0.746667rem;
+  font-size: 0.346667rem;
+  color: #666666;
+}
+
+.btn_login {
+  position: absolute;
+  top: 5.066667rem;
+  left: 2.224rem;
+  width: 5.453333rem;
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 0.133333rem;
+  font-size: 0.346667rem;
+  color: #E31436;
+  cursor: pointer;
+}
+
+.line3 {
+  position: absolute;
+  top: 8.973333rem;
+  left: 0.56rem;
+  width: 8.88rem;
+  border-top: 1px solid #999;
+}
+
+.hezuo {
+  position: absolute;
+  left: 3.133333rem;
+  top: 8.8rem;
+  width: 3.8rem;
+  height: 0.333333rem;
+  line-height: 0.333333rem;
+  font-size: 0.32rem;
+  color: #999;
+  text-align: center;
+  background: #fff;
+}
+
+.iconfont_qq {
+  position: absolute;
+  top: 9.76rem;
+  left: 1.186667rem;
+  width: 0.986667rem;
+}
+
+.qq_login {
+  position: absolute;
+  top: 10.8rem;
+  left: 1.186667rem;
+  width: 0.986667rem;
+  height: 0.493333rem;
+  line-height: 0.493333rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #999;
+}
+
+.iconfont_wx {
+  position: absolute;
+  top: 9.76rem;
+  left: 4.36rem;
+  width: 0.986667rem;
+}
+
+.wx_login {
+  position: absolute;
+  top: 10.8rem;
+  left: 4.36rem;
+  width: 0.986667rem;
+  height: 0.493333rem;
+  line-height: 0.493333rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #999;
+}
+
+.iconfont_wb {
+  position: absolute;
+  top: 9.76rem;
+  left: 7.733333rem;
+  width: 0.986667rem;
+}
+
+.wb_login {
+  position: absolute;
+  top: 10.8rem;
+  left: 7.733333rem;
+  width: 0.986667rem;
+  height: 0.493333rem;
+  line-height: 0.493333rem;
+  text-align: center;
+  font-size: 0.32rem;
+  color: #999;
+}
+.user_ts{
+	position: absolute;
+	top: 1.15rem;
+	right: 1.1rem;
+	width: 0.4066rem;
+	height: 0.4066rem;	
+}
+.pwd_ts{
+	position: absolute;
+	top: 2.3rem;
+	right: 1.1rem;
+	width: 0.4066rem;
+	height: 0.4066rem;	
+}
+.error_logo{
+	width: 0.4066rem;
+	height: 0.4066rem;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+.error-info{
+	font-size: 0.3266rem;
+	position: absolute;
+	top: 4.2rem;
+	left: 0.7466rem;
+}
+.error-tip{
+	line-height: 0.4066rem;
+	vertical-align: bottom;
+	font-size:0.2rem;
+	color:#999;
+}
+.hidden{
+	display: none;
+}
+
+.gotoreg {
+	position: absolute;
+	top: 3.6rem;
+	right: 1.1466rem;
+	font-size: 0.3466rem;
+	color: #666666;
+}

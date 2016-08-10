@@ -1,0 +1,435 @@
+html {
+	font-size: 75px;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.m_head {
+	position: relative;
+	width: 750px;
+	height: 88px;
+}
+
+.back {
+	position: absolute;
+	width: 88px;
+}
+
+.shouye {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 88px;
+}
+
+.search_text {
+	position: absolute;
+	left: 200px;
+	right: 200px;
+	top: 0;
+	height: 88px;
+	line-height: 88px;
+	font-size: 32px;
+	color: #373737;
+	text-align: center;
+}
+
+.line1 {
+	position: absolute;
+	top: 88px;
+	left: 0px;
+	width: 750px;
+	border-top: 1px solid #999; /*no*/
+	/*no*/
+	z-index: 100;
+}
+
+.address {
+	position: relative;
+	width: 750px;
+	height: 200px;
+	background: #dedede;
+	text-align: center;
+	padding-top: 65px;
+}
+
+.add_address {
+	height: 66px;
+	line-height: 66px;
+	font-size: 26px;
+	color: #464646;
+	padding: 0 30px;
+	background: #fff;
+	display: inline-block;
+	border: 3px solid #999;
+	border-radius: 5px;
+}
+
+.fahuo {
+	position: relative;
+	width: 750px;
+	height: 68px;
+	border-bottom: 1px solid #999; /*no*/
+	clear: both;
+}
+
+.bs_fahuo {
+	height: 68px;
+	line-height: 68px;
+	font-size: 26px;
+	color: #999;
+	margin-left: 20px;
+}
+
+.order_item {
+	position: relative;
+	width: 750px;
+	height: 100px;
+	border-bottom: 1px solid #999; /*no*/
+	clear: both;
+}
+
+.bed {
+	margin: 5px 40px;
+	width: 90px;
+	float: left;
+}
+
+.bed_title {
+	float: left;
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 26px;
+	color: #464646;
+	padding-top: 10px;
+}
+
+.bed_num {
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	font-size: 26px;
+	color: #464646;
+	padding-left: 60px;
+}
+
+.bed_price {
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	font-size: 26px;
+	color: #464646;
+	padding-left: 60px;
+}
+
+.banner {
+	position: relative;
+	width: 750px;
+	height: 20px;
+	background: #dedede;
+}
+
+.jiesuan {
+	position: relative;
+	width: 750px;
+	height: 88px;
+	border-bottom: 1px solid #999; /*no*/
+}
+
+.bs_jiesuan {
+	height: 88px;
+	line-height: 88px;
+	font-size: 30px;
+	color: #464646;
+	margin-left: 20px;
+}
+
+.sp_price {
+	width: 670px;
+	height: 70px;
+	margin-left: 40px;
+	border-bottom: 2px dashed #999;
+	position: relative;
+}
+
+.sp_title {
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	font-size: 26px;
+	color: #666;
+}
+
+.sp_jiage {
+	float: right;
+	height: 70px;
+	line-height: 70px;
+	font-size: 26px;
+	color: #666;
+}
+
+.bottom_padding {
+	width: 750px;
+	height: 300px;
+}
+
+.pay_item {
+	position: relative;
+	width: 750px;
+	padding: 0 40px;
+	height: 100px;
+}
+
+.zhifubao {
+	font-size: 60px !important;
+	margin-top: 20px;
+	float: left;
+	color: #56abe4;
+}
+
+.pay_title {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 26px;
+	color: #464646;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.gou {
+	font-size: 60px !important;
+	margin-top: 20px;
+	float: right;
+	color: #eee;
+	margin-right: 20px;
+}
+
+.gou_select {
+	color: #FB9C77 !important;
+}
+
+.weixin {
+	font-size: 60px !important;
+	margin-top: 20px;
+	float: left;
+	color: #10cc6d;
+}
+
+.sj_pay {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 750px;
+	height: 110px;
+	background: rgba(250, 250, 250, 0.8);
+	z-index: 50;
+}
+
+.pay_text {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	font-size: 30px;
+	color: #464646;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.pay_text span {
+	color: #FB9C77;
+}
+
+.jieshen {
+	font-size: 22px;
+	color: #999;
+}
+
+.btn_login {
+	position: absolute;
+	top: 35px;
+	right: 40px;
+	width: 210px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 26px;
+	color: #fff;
+	background: #FB9C77;
+	cursor: pointer;
+}
+
+.addr_border{
+	width: 540px;
+	height: 130px;
+	border: 3px solid #999;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 100px;
+	margin-top: -30px;
+	
+}
+.addr_text{
+	float: left;
+	margin-left: 70px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 25px;
+	color: #464646;
+	width: 320px;
+}
+.jiantou{
+	width: 60px;
+	margin-right: 15px;
+	margin-top: 35px;
+}
+/*弹框*/
+
+.delete_addr {
+	width: 370px;
+	height: 74px;
+	line-height: 74px;
+	font-size: 26px;
+	color: #464646;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	/*no*/
+}
+
+.quxiao {
+	float: left;
+	width: 183px;
+	height: 74px;
+	line-height: 74px;
+	font-size: 26px;
+	color: #89bcf5;
+	text-align: center;
+}
+
+.line5 {
+	float: left;
+	height: 74px;
+	width: 1px;
+	border: none;
+	border-left: 1px solid #eee;
+}
+
+.mfp-hide {
+	display: none!important;
+}
+
+.white-popup-block {
+	width: 370px;
+	height: 145px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 40px auto;
+	position: relative;
+}
+/*地址弹框*/
+.addr-popup-block {
+	width: 750px;
+	height: 550px;
+	border-radius: 10px;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	overflow-y: auto;
+	
+}
+.addr_btn{
+	position: fixed;
+	bottom: 460px;
+	width: 750px;
+	height: 90px; 
+	background: #DEDEDE;
+	line-height: 90px;
+	font-size: 30px;
+	border-bottom: 1px solid #999;
+	box-shadow: 0px 0px 5px 5px rgba(153, 153, 153, .3);
+}
+.tiaoxingma{
+	width:100%;
+	height: 90px;
+}
+a{
+	text-decoration: none !important;
+	color: inherit;
+}
+.modal_quxiao{
+	color: #464646;
+	margin-left: 20px;
+	font-size: 35px;
+	display: inline-block;
+}
+.modal_sure{
+	color: #FB9C77;
+	font-size: 35px;
+	margin-right: 20px;
+	float: right;
+	display: inline-block;
+}
+.modal_item{
+	width: 750px;
+	height: 130px;
+	border-top: 1px solid #999; /*no*/
+	color: #999;
+}
+.modal_addr{
+	font-size: 26px;
+	width: 500px;
+	height: 90px;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+
+.modal_edit{
+	float: right;
+	font-size: 30px;
+	padding: 0 40px;
+	margin-right: 40px;
+	border-left: 1px solid #999; /*no*/
+	height: 110px;
+	color: #999 !important;
+	line-height: 110px;
+	margin-top: 10px;
+	color: inherit;
+}
+
+.modal_select{
+	color: #464646 !important;
+}
+.add_new_addr{
+	position: fixed;
+	bottom: 0px;
+	width: 750px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 30px;
+	color: #FB9C77;
+	text-align: center;
+	border-top: 1px solid #999; /*no*/
+	background: rgba(250,250,250,.8);
+}
+.modal_padding{
+	width: 750px;
+	height: 220px;
+}
+.white_content {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 200px;
+	width: 370px;
+	height: 145px;
+	border-radius: 10px;
+	background-color: #fff;
+	z-index: 1043;
+}

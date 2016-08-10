@@ -1,0 +1,179 @@
+html {
+  font-size: 1rem;
+}
+
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 1.173333rem;
+}
+
+.iconfont_back {
+  width: 1.173333rem;
+  height: 1.173333rem;
+}
+
+.login {
+  position: absolute;
+  top: 0;
+  left: 1.173333rem;
+  width: 7.6rem;
+  text-align: center;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+}
+
+.line1 {
+  position: absolute;
+  top: 1.173333rem;
+  width: 10rem;
+  border-top: 0.013333rem solid #464646;
+}
+
+.m_input {
+  position: relative;
+  width: 10rem;
+  height: 7.6rem;
+}
+
+.mobileNum {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0.6rem;
+  width: 8.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  color: #464646;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #999;
+  background: rgba(0,0,0,0);
+  border-radius: 0;
+}
+
+.yanzheng {
+  border: none;
+  position: absolute;
+  top: 1.213333rem;
+  left: 0.6rem;
+  width: 8.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  color: #464646;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #999;
+  background: rgba(0,0,0,0);
+  border-radius: 0;
+}
+
+.btn_yz {
+  position: absolute;
+  top: 1.466667rem;
+  right: 1.013333rem;
+  width: 2.986667rem;
+  height: 0.733333rem;
+  line-height: 0.733333rem;
+  text-align: center;
+  /*border: 1px solid #999;*/
+  border-radius: 0.066667rem;
+  font-size: 0.32rem;
+  color: #fff;
+  background: #E31436;
+  cursor: pointer;
+}
+
+.btn_yzjs {
+  position: absolute;
+  top: 1.466667rem;
+  right: 1.013333rem;
+  width: 2.986667rem;
+  height: 0.733333rem;
+  line-height: 0.733333rem;
+  text-align: center;
+  /*border: 1px solid #999;*/
+  border-radius: 0.066667rem;
+  font-size: 0.32rem;
+  color: #464646;
+  background: #999;
+  cursor: pointer;
+}
+.password {
+  border: none;
+  position: absolute;
+  top: 2.4rem;
+  left: 0.6rem;
+  width: 8.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  color: #464646 ;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #999;
+  background: rgba(0,0,0,0);
+  border-radius:0px;
+}
+
+.xieyi {
+  position: absolute;
+  left: 0.6rem;
+  top: 4.133333rem;
+  width: 8.36rem;
+  height: 0.293333rem;
+  line-height: 0.293333rem;
+  font-size: 0.293333rem;
+  color: #999;
+}
+
+.btn_login {
+  position: absolute;
+  top: 5.566667rem;
+  left: 1.866667rem;
+  width: 5.453333rem;
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 0.133333rem;
+  font-size: 0.346667rem;
+  color: #E31436;
+  cursor: pointer;
+}
+
+.user_ts{
+	position: absolute;
+	top: 0.5rem;
+	right: 1.1rem;
+	width: 0.4066rem;
+	height: 0.4066rem;	
+}
+
+.pwd_ts{
+	position: absolute;
+	top: 2.8rem;
+	right: 1.1rem;
+	width: 0.4066rem;
+	height: 0.4066rem;	
+}
+
+.hidden{
+	display: none;
+}
+
+.error_logo{
+	width: 0.4066rem;
+	height: 0.4066rem;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+
+.error-info{
+	font-size: 0.3266rem;
+	position: absolute;
+	top: 4.8rem;
+	left: 0.5466rem;
+}
+.error-tip{
+	line-height: 0.4066rem;
+	vertical-align: bottom;
+}

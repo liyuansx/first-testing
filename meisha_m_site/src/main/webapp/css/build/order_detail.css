@@ -1,0 +1,283 @@
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+*{
+padding:0;
+margin:0;
+}
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 1.173333rem;
+}
+
+.back {
+  position: absolute;
+  width: 1.173333rem;
+}
+
+.shouye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.173333rem;
+}
+
+.search_text {
+  position: absolute;
+  left: 2.666667rem;
+  right: 2.666667rem;
+  top: 0;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+  text-align: center;
+}
+
+.line1 {
+  position: absolute;
+  top: 1.173333rem;
+  left: 0;
+  width: 10rem;
+  border-top: 1px solid #999;
+  z-index: 100;
+}
+.status_bg{
+	overflow: hidden; 
+	width: 10rem;
+	height: 4.16rem;
+	background-color: #DEDEDE;
+}
+.status_detail{
+	width: 7.17333rem;
+	height: 2.71333rem;
+	margin-top: 0.45rem;
+	margin-left: 1.36rem;
+	padding-top: 0.46rem;
+	background-color: #FFFFFF;
+	border-radius: 0.06667rem;
+	border: 3px solid #999;
+}
+.order_name{
+	margin-left: 0.74667rem;
+	font-size: 0.34667rem;
+	color: #E31436;
+}
+.order_num{
+	margin-left: 0.74667rem;
+	margin-top: 0.29333rem;
+	font-size: 0.32rem;
+	color: #464646;
+}
+.reciver{
+	margin-left: 0.74667rem;
+	margin-top: 0.01567rem;
+	font-size: 0.32rem;
+	color: #464646;
+}
+.province{
+	margin-left: 2.05333rem;
+	margin-top: 0.01567rem;
+	font-size: 0.32rem;
+	color: #464646;
+}
+.address{
+	margin-left: 2.05333rem;
+	margin-top: 0.01567rem;
+	font-size: 0.32rem;
+	color: #464646;
+}
+.progress{
+	padding-left: 0.8rem;
+	height: 1.73333rem;
+	width: 10rem;
+	padding-top: 0.38rem;
+}
+.progress_img{
+	width: 8.05333rem;
+	height: 0.32rem;
+	margin-top: 0.36667rem;
+}
+.progress_paid{
+	float: left;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.26667rem;
+}
+.progress_order{
+	float: left;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.26667rem;
+	margin-left: 0.89333rem;
+}
+.progress_pick{
+	float: left;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.26667rem;
+	margin-left: 1.06667rem;
+}
+.progress_deliver{
+	float: left;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.26667rem;
+	margin-left: 1.28rem;
+}
+.progress_finish{
+	float: left;
+	font-size: 0.24rem;
+	color: #666666;
+	margin-top: 0.26667rem;
+	margin-left: 1.16rem;
+}
+.line{
+	width: 10rem;
+	height: 0.26667rem;
+	background-color: #EEEEEE;
+}
+.order_time{
+	height: 0.58667rem;
+	width: 10rem;
+	padding-top: 0.18667rem;
+	padding-left: 0.21333rem;
+	font-size: 0.26667rem;
+	color: #999999;
+	border-bottom: 1px solid #CDCDCD ;
+}
+.order_unit{
+	width: 10rem;
+	height: 2.4rem;
+	border-bottom: 1px solid #CDCDCD ;
+}
+.product_img{
+	float: left;
+	width: 2rem;
+	height: 2rem;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.prodect_p{
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.06667rem;
+	width: 7.53333rem;
+	height: 2rem;
+}
+.product_name{
+	margin-top: 0.09333rem;
+	width: 5.90667rem;
+	height: 0.8rem;
+	font-size: 0.34667rem;
+	color: #464646;
+}
+.product_price{
+	float: left;
+	margin-top: 0.45333rem;
+	height: 0.32rem;
+	width: 4.13333rem;
+	font-size: 0.34667rem;
+	color: #464646;
+	}
+.product_price_pre{
+	margin-left: 0.06667rem;
+	text-decoration:line-through;
+	color: #999999;
+	font-size: 0.24rem;
+}
+.product_num{
+	margin-left: 0.26667rem;
+	color: #999999;
+	font-size: 0.32rem;
+}
+.refund_btn{
+	float: right;
+	width: 1.89333rem;
+	height: 0.45333rem;
+	margin-top: 0.38667rem;
+	line-height: 0.45333rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #464646;
+	font-size: 0.32rem;
+	border: 1px solid #464646;
+}
+.shipping{
+	padding-top: 0.26667rem;
+	padding-left: 0.50667rem;
+	padding-right: 0.50667rem;
+	font-weight: bold;
+}
+.shipping_name{
+	float: left;
+	font-size: 0.34667rem;
+	color: #464646;
+}
+.shipping_cost{
+	float: right;
+	font-size: 0.26667rem;
+	color: #999999;
+	margin-top: 0.04rem;
+}
+
+.paid{
+	padding-top: 0.56rem;
+	padding-left: 0.50667rem;
+	padding-right: 0.50667rem;
+	margin-bottom: 2.5rem;
+	font-weight: bold;
+}
+.pay_name{
+	float: left;
+	font-size: 0.34667rem;
+	color: #464646;
+}
+.pay_cost{
+	float: right;
+	font-size: 0.26667rem;
+	color: #E31436;
+	margin-top: 0.04rem;
+}
+
+.footer_btns{
+	position: fixed;
+	bottom: 0;
+	width: 10rem;
+	height: 1.62667rem;
+	background-color: #FFFFFF;
+	border-top: 0.26667rem solid #EEEEEE;
+}
+.footer_submit_btn{
+	float: right;
+	width: 3.25333rem;
+	height: 0.98667rem;
+	margin-top: 0.32667rem;
+	margin-right: 0.32rem;
+	border-radius: 0.09rem;
+	line-height: 0.98667rem;
+	background-color: #E31436;
+	border: 1px solid #E31436;
+	font-size: 0.4rem;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer_check_btn{
+	float: right;
+	width: 3.25333rem;
+	height: 0.98667rem;
+	margin-top: 0.32667rem;
+	margin-right: 0.32rem;
+	border-radius: 0.09rem;
+	line-height: 0.98667rem;
+	border: 1px solid #E31436;
+	font-size: 0.4rem;
+	color: #E31436;
+	text-align: center;
+	vertical-align: middle;
+}

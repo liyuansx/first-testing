@@ -1,0 +1,282 @@
+html {
+	font-size: 1rem;
+}
+
+.MAIGANG {
+	margin-left: 2.96rem;
+	text-align: center;
+	margin-top: 0.426667rem;
+	margin-bottom: 0.213333rem;
+	width: 4.386667rem;
+	height: 0.6rem;
+}
+
+.m_hr {
+	width: 9.466667rem;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 0.013333rem solid #c9c9c9;
+}
+
+.m_nav {
+	width: 100%;
+	height: 1.173333rem;
+	/*line-height: 88px;*/
+}
+
+.m_icon {
+	font-size: 0.666667rem !important;
+	margin-left: 0.266667rem;
+	color: #464646;
+	float: left;
+	width: 1.173333rem;
+	height: 1.173333rem;
+	line-height: 1.173333rem;
+	text-align: center;
+}
+
+.cart_bolder {
+	font-weight: 500;
+}
+
+.recommend {
+	/*margin-left: 14px;*/
+	/*display: inline-block;*/
+	/*padding:0 7px ;*/
+	float: left;
+	color: #464646;
+	line-height: 0.88rem;
+	/*padding-top: 19px;*/
+	width: 1.173333rem;
+	height: 0.88rem;
+	margin-top: 0.226667rem;
+	/*background: #464646;*/
+	margin-left: 0.213333rem;
+	text-align: center;
+}
+
+[data-dpr="1"] .recommend {
+	font-size: 15px;
+}
+
+[data-dpr="2"] .recommend {
+	font-size: 30px;
+}
+
+[data-dpr="3"] .recommend {
+	font-size: 45px;
+}
+
+
+.head-wrapper {
+	width: 9.4666rem;
+	height: 1.1733rem;
+	text-align: center;
+	margin-left: 0.2666rem;
+	margin-right: 0.2666rem;
+}
+
+.img-link {
+	width: 1.1733rem;
+	height: 1.1733rem;
+	outline: none;
+}
+
+.img-f {
+	float: left;
+}
+
+.img-r {
+	float: right;
+}
+
+.back-link {
+	height: 1.1733rem;
+	width: 1.0666rem;
+	line-height: 1.1733rem;
+	vertical-align: bottom;
+}
+
+.head-center {
+	line-height: 1.1733rem;
+	font-size: 0.4533rem;
+	color: #252525;
+}
+
+.line-space {
+	width: 9.4666rem;
+	margin-left: 0.2666rem;
+	margin-right: 0.2666rem;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 0.2666rem;
+}
+
+.recommend-selected {
+	padding-bottom: 0.133333rem;
+	border-bottom: 0.026667rem solid #464646 !important;
+}
+
+.m_nav a {
+	text-decoration: none;
+	color: #464646;
+}
+
+.m_nav a:hover {
+	text-decoration: none;
+	color: #464646;
+}
+
+.search {
+	width: 10rem;
+	height: 0.68rem;
+	margin-top: 0.32rem;
+	position: relative;
+	margin-bottom: 0.4rem;
+}
+
+.m_search {
+	width: 8.64rem;
+	height: 0.68rem;
+	border: 0.013333rem solid #464646;
+	/*text-align: center;*/
+	margin-left: 0.666667rem;
+	padding-left: 0.266667rem;
+}
+
+.search_icon {
+	position: absolute;
+	color: #464646;
+	font-size: 0.666667rem !important;
+	right: 0.666667rem;
+	top: 0;
+	width: 0.933333rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+}
+
+.dingbufix {
+    z-index: 999;
+    background: rgba(250,250,250,0.8);
+}
+.swiper-container {
+	width: 10rem;
+	height: 5.066667rem;
+}
+
+.banner1_750_380 {
+	width: 10rem;
+	height: 5.066667rem;
+}
+
+.share-container {
+	width: 9.666rem;
+	margin-left: 0.266rem;
+	margin-right: 0.08rem;
+	margin-top: 0.4rem;
+	height: 2.4rem;
+}
+
+.share-container .share-type-item {
+	float: left;
+	margin-right: 0.1866rem;
+	width: 4.64rem;
+	height: 2.4rem;
+}
+
+.share-container .share-type-item .type-img {
+	width: 4.64rem;
+}
+
+.img_adv {
+	clear: both;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.img_adv .type-title {
+	width: 2.4rem;
+}
+
+.share-box {
+	margin-left: 0.1733rem;
+	margin-right: 0.1733rem;
+}
+
+.share-ul {
+	list-style: none;
+}
+
+.share-ul .share-item {
+	float: left;
+	margin-left: 0.09333rem;
+	margin-right: 0.09333rem;
+	width: 4.64rem;
+	height: 7.733rem;
+	margin-bottom: 0.2666rem;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0rem 0rem 0.2666rem 0.08rem rgba(70,70,70,0.1);
+	-moz-box-shadow: 0rem 0rem 0.2666rem 0.08rem rgba(70,70,70,0.1);
+	box-shadow: 0rem 0rem 0.2666rem 0.08rem rgba(70,70,70,0.1);
+}
+
+.share-item-wrap {
+	padding: 0.1866rem 0.2rem;
+}
+
+.share-item-wrap .item-img {
+	width: 4.266rem;
+	height: 4.266rem;
+}
+.item-name{
+	height: 0.888rem;
+	overflow: hidden;
+}
+.item-name a{
+	text-decoration: none;
+	font-size: 0.3466rem;
+	color: #464646;
+	height: 0.888rem;
+	overflow: hidden;
+	margin-top:0.44rem;
+	line-height: 0.44rem;
+}
+.item-name a:hover{
+	text-decoration: none;
+}
+.item-time{
+	font-size: 0.2666rem;
+	color: #6e6e6e;
+	height: 0.366rem;
+	overflow: hidden;
+	margin-top: 0.2666rem;
+}
+.space-dot-line{
+	border-bottom: 1px dashed #999999;
+	margin-top: 0.1866rem;
+}
+.item-footer{
+	margin-top: 0.133rem;
+	position: relative;
+}
+.item-footer .img-logo{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+}
+.item-fr{
+	position: absolute;
+	right: 0rem;
+	top:0rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.item-fr .like-img{
+	width: 0.4rem;
+	height: 0.4rem;
+	vertical-align: middle;
+}
+.item-fr .link-num{
+	color: #6e6e6e;
+	font-size: 0.2666rem;
+}

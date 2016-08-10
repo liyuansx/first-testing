@@ -1,0 +1,250 @@
+html {
+  font-size: 1rem;
+}
+
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 1.173333rem;
+  z-index: 103;
+  background: #fff;
+}
+
+.back {
+  position: absolute;
+  width: 1.173333rem;
+}
+
+.shouye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.173333rem;
+}
+
+.search_text {
+  position: absolute;
+  left: 2.666667rem;
+  right: 2.666667rem;
+  top: 0;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
+  color: #373737;
+  text-align: center;
+}
+
+.line1 {
+  position: absolute;
+  top: 1.173333rem;
+  left: 0;
+  width: 10rem;
+  border-top: 1px solid #999;
+}
+
+.search_container {
+  position: relative;
+  width: 10rem;
+  height: 1.533333rem;
+  z-index: 102;
+  background: #FFFFFF;
+}
+
+.search_content {
+  position: relative;
+  top: 0.306667rem;
+  left: 0.933333rem;
+  height: 0.8rem;
+  width: 8.106667rem;
+  border: 1px solid #999;
+}
+
+.pinpai {
+  float: left;
+  width: 2rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.426667rem;
+  color: #373737;
+  text-align: center;
+}
+
+.line2 {
+  float: left;
+  height: 0.8rem;
+  border-left: 1px dashed #999;
+}
+
+.pinpai_selected {
+  color: #E31436;
+}
+
+.pro_container {
+  position: relative;
+  width: 10rem;
+}
+
+.pro_content {
+  position: relative;
+  float: left;
+  width: 4.6rem;
+  height: 6.573333rem;
+  margin-left: 0.266667rem;
+  margin-bottom: 0.266667rem;
+  box-shadow: 0 0 0.666667rem 0.4rem rgba(153, 153, 153, .1);
+}
+
+.alima {
+  width: 4.6rem;
+  height: 4.6rem;
+}
+
+.Yves {
+  width: 4.6rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  font-size: 0.32rem;
+  color: #464646;
+  padding-left: 0.266667rem;
+}
+
+.price123 {
+  width: 2.666667rem;
+  margin-top: 0.4rem;
+  margin-left: 0.266667rem;
+  height: 0.266667rem;
+  line-height: 0.266667rem;
+  font-size: 0.266667rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.pro_content a:hover {
+  text-decoration: none;
+}
+
+.price98 {
+  width: 2.666667rem;
+  margin-top: 0.2rem;
+  margin-left: 0.266667rem;
+  height: 0.333333rem;
+  line-height: 0.333333rem;
+  font-size: 0.333333rem;
+  color: #464616;
+}
+
+.jiarugouwuche {
+  position: absolute;
+  right: 0.266667rem;
+  bottom: 0.266667rem;
+  width: 2.133333rem;
+  height: 0.893333rem;
+}
+
+.black_overlay {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #999;
+  z-index: 100;
+  -moz-opacity: 0.6;
+  opacity: .60;
+  filter: alpha(opacity=60);
+  overflow-y: hidden;
+}
+
+.white_content {
+  display: none;
+  position: fixed;
+  top: 2.693333rem;
+  left: 0;
+  width: 10rem;
+  height: 4.093333rem;
+  background-color: white;
+  z-index: 102;
+}
+
+.xuehua_text {
+  width: 1.6rem;
+  height: 0.373333rem;
+  line-height: 0.373333rem;
+  font-size: 0.373333rem;
+  color: #464646;
+  margin-left: 0.8rem;
+  margin-bottom: 0.4rem;
+  float: left;
+}
+
+.line5 {
+  position: absolute;
+  bottom: 0.933333rem;
+  margin-left: 0.266667rem;
+  width: 9.466667rem;
+  border: none;
+  border-bottom: 0.013333rem solid #999;
+}
+
+.cha_more {
+  position: absolute;
+  bottom: 0;
+  width: 10rem;
+  height: 0.933333rem;
+  line-height: 0.933333rem;
+  font-size: 0.373333rem;
+  color: #464646;
+  text-align: center;
+}
+
+.mfp-hide {
+  display: none!important;
+}
+
+.white-popup-block {
+  position: absolute;
+  top: 2.693333rem;
+  width: 10rem;
+  height: 4.093333rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.white_content {
+  display: none;
+  position: fixed;
+  top: 2.693333rem;
+  left: 0;
+  width: 10rem;
+  height: 4.093333rem;
+  background-color: white;
+  z-index: 102;
+}
+
+.search_none_icon{
+	width:3.48rem ;
+	height: 2.66667rem;
+	margin-top:1.81333rem ;
+	margin-left: 3.09333rem;
+}
+.search_none_p{
+	margin-top:0.66667rem ;
+	margin-left: 3.62667rem;
+	font-size: 0.24rem;
+	color: #464646;
+}
+.search_none_btn{
+	margin-left: 2.72rem;
+	margin-top: 0.45333rem;
+	width: 4.42667rem;
+	height: 0.76rem;
+	line-height:  0.76rem;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #e41436;
+	color: #fff;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

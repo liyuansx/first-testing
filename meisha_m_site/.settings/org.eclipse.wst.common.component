@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="meisha_m_site">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="meisha_common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_common/meisha_common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_core-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_core/meisha_core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_custom-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_custom/meisha_custom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_gift-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_gift/meisha_gift">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_goods-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_goods/meisha_goods">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_system-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_system/meisha_system">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_information-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_information/meisha_information">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_templet-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_templet/meisha_templet">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_market-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_market/meisha_market">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_order-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_order/meisha_order">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_goods_platform-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_goods_platform/meisha_goods_platform">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="meisha_searchplatform-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/meisha_searchplatform/meisha_searchplatform">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="meisha_m_site"/>
+        <property name="java-output-path" value="/meisha_m_site/target/classes"/>
+    </wb-module>
+</project-modules>

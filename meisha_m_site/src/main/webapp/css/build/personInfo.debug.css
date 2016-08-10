@@ -1,0 +1,199 @@
+html {
+  font-size: 1rem;
+}
+
+.m_head {
+  position: relative;
+  width: 10rem;
+  height: 3.626667rem;
+}
+
+.headbg {
+  width: 10rem;
+  height: 3.626667rem;
+}
+
+.tubiao1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.173333rem;
+  height: 1.173333rem;
+}
+
+.tubiao2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.173333rem;
+  height: 1.173333rem;
+}
+
+.touxiang {
+  position: absolute;
+  top: 0.733333rem;
+  left: 4.2rem;
+  width: 1.413333rem;
+  height: 1.413333rem;
+  border-radius: 50%;
+}
+
+.nickname {
+  position: absolute;
+  right: 0;
+  top: 2.586667rem;
+  width: 10rem;
+  height: 0.426667rem;
+  line-height: 0.426667rem;
+  font-size: 0.426667rem;
+  color: #fff;
+  text-align: center;
+}
+
+.m_nav {
+  position: relative;
+  width: 10rem;
+  height: 2.533333rem;
+}
+
+.m_item {
+  float: left;
+  height: 2.533333rem;
+  width: 1.52rem;
+  margin-left: 0.4rem;
+  padding-top: 0.533333rem;
+  text-align: center;
+}
+
+.tubiao3 {
+  width: 0.986667rem;
+}
+
+.order {
+  width: 1.52rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.32rem;
+  color: #464646;
+  text-align: center;
+}
+
+.m_nav a:hover {
+  text-decoration: none;
+}
+
+.m_banner {
+  position: relative;
+  width: 10rem;
+  height: 0.2rem;
+  background: #eee;
+}
+
+.m_back {
+  position: relative;
+  width: 10rem;
+  height: 1.333333rem;
+  border-bottom: 0.013333rem solid #999;
+}
+
+.youhui {
+  position: absolute;
+  left: 0.48rem;
+  top: 0;
+  width: 6.666667rem;
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  font-size: 0.32rem;
+  color: #464646;
+}
+
+.tubiao4 {
+  position: absolute;
+  right: 0.133333rem;
+  bottom: 0.133333rem;
+  width: 1.013333rem;
+  height: 1.013333rem;
+}
+
+.btn_logout {
+  position: absolute;
+  top: 13.44rem;
+  left: 2.2666rem;
+  width: 5.4533rem;
+  height: 0.9866rem;
+  line-height: 0.9866rem;
+  text-align: center;
+  /*border: 1px solid #999;*/
+  border-radius: 0.133333rem;
+  font-size: 0.346667rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #E31436;
+}
+
+
+.black_overlay {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #999;
+  z-index: 100;
+  -moz-opacity: 0.6;
+  opacity: .60;
+  filter: alpha(opacity=60);
+}
+
+.delete_addr {
+  width: 4.933333rem;
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  font-size: 0.346667rem;
+  color: #464646;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.quxiao {
+  height: 0.986667rem;
+  line-height: 0.986667rem;
+  font-size: 0.346667rem;
+  color: #89bcf5;
+  text-align: center;
+}
+
+.line5 {
+  float: left;
+  height: 0.986667rem;
+  width: 0.013333rem;
+  border: none;
+  border-left: 0.013333rem solid #eee;
+}
+
+.mfp-hide {
+  display: none!important;
+}
+
+.white-popup-block {
+  width: 4.933333rem;
+  height: 1.933333rem;
+  border-radius: 0.133333rem;
+  background-color: #fff;
+  margin: 0.533333rem auto;
+  position: relative;
+}
+
+.white_content {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 2.666667rem;
+  width: 4.933333rem;
+  height: 1.933333rem;
+  border-radius: 0.133333rem;
+  background-color: #fff;
+  z-index: 1043;
+}
